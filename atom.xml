@@ -6,7 +6,7 @@
   <link href="http://thenorth.top/atom.xml" rel="self"/>
   
   <link href="http://thenorth.top/"/>
-  <updated>2020-11-27T15:36:34.311Z</updated>
+  <updated>2020-11-28T06:56:52.458Z</updated>
   <id>http://thenorth.top/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly属性信息</title>
+    <link href="http://thenorth.top/2020/11/28/Butterfly%E5%B1%9E%E6%80%A7%E4%BF%A1%E6%81%AF/"/>
+    <id>http://thenorth.top/2020/11/28/Butterfly%E5%B1%9E%E6%80%A7%E4%BF%A1%E6%81%AF/</id>
+    <published>2020-11-28T06:49:47.000Z</published>
+    <updated>2020-11-28T06:56:52.458Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>### 创建新的标签页的属性---title: date:   updated: type:comments:description:keywords:top_img:mathjax:katex:aside:aplayer:highlight_shrink:---``title    【必需】頁面標題date    【必需】頁面創建日期type    【必需】標籤、分類和友情鏈接三個頁面需要配置updated    【可選】頁面更新日期description    【可選】頁面描述keywords    【可選】頁面關鍵字comments    【可選】顯示頁面評論模塊(默認 true)top_img    【可選】頁面頂部圖片mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)aside    【可選】顯示側邊欄 (默認 true)aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)### 创建博客的属性title    【必需】頁面標題date    【必需】頁面創建日期type    【必需】標籤、分類和友情鏈接三個頁面需要配置updated    【可選】頁面更新日期description    【可選】頁面描述keywords    【可選】頁面關鍵字comments    【可選】顯示頁面評論模塊(默認 true)top_img    【可選】頁面頂部圖片mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)aside    【可選】顯示側邊欄 (默認 true)aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;
+
+### 创建新的标签页的属性
+---
+title: 
+date:   
+updated: 
+type:
+comments:
+description:
+keywords:
+top_img:
+mathjax:
+katex:
+aside:
+aplayer:
+h</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>leetcode刷题笔记</title>
