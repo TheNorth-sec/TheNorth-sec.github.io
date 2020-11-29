@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Butterfly属性信息</title>
+    <url>/2020/11/28/Butterfly%E5%B1%9E%E6%80%A7%E4%BF%A1%E6%81%AF/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">### 创建新的标签页的属性</span><br><span class="line">---</span><br><span class="line">title: </span><br><span class="line">date:   </span><br><span class="line">updated: </span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top_img:</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">aside:</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">---</span><br><span class="line">	</span><br></pre></td></tr></table></figure>
+
+<p>title    【必需】頁面標題<br>date    【必需】頁面創建日期<br>type    【必需】標籤、分類和友情鏈接三個頁面需要配置<br>updated    【可選】頁面更新日期<br>description    【可選】頁面描述<br>keywords    【可選】頁面關鍵字<br>comments    【可選】顯示頁面評論模塊(默認 true)<br>top_img    【可選】頁面頂部圖片<br>mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)<br>aside    【可選】顯示側邊欄 (默認 true)<br>aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)</p>
+<h3 id="创建博客的属性"><a href="#创建博客的属性" class="headerlink" title="创建博客的属性"></a>创建博客的属性</h3><p>寫法    解釋<br>title    【必需】文章標題<br>date    【必需】文章創建日期<br>updated    【可選】文章更新日期<br>tags    【可選】文章標籤<br>categories    【可選】文章分類<br>keywords    【可選】文章關鍵字<br>description    【可選】文章描述<br>top_img    【可選】文章頂部圖片<br>cover    【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)<br>comments    【可選】顯示文章評論模塊(默認 true)<br>toc    【可選】顯示文章TOC(默認為設置中toc的enable配置)<br>toc_number    【可選】顯示toc_number(默認為設置中toc的number配置)<br>copyright    【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)<br>copyright_author    【可選】文章版權模塊的文章作者<br>copyright_author_href    【可選】文章版權模塊的文章作者鏈接<br>copyright_url    【可選】文章版權模塊的文章連結鏈接<br>copyright_info    【可選】文章版權模塊的版權聲明文字<br>mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)<br>aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)<br>aside    【可選】顯示側邊欄 (默認 true)</p>
+]]></content>
+  </entry>
+  <entry>
     <title>DDos 反射攻击</title>
     <url>/2020/11/28/DDos%20%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</url>
     <content><![CDATA[<h1 id="基于CoAP协议的物联网设备参与DDos反射攻击与-基于ONVIF协议的物联网设备参与DDos攻击"><a href="#基于CoAP协议的物联网设备参与DDos反射攻击与-基于ONVIF协议的物联网设备参与DDos攻击" class="headerlink" title="基于CoAP协议的物联网设备参与DDos反射攻击与    基于ONVIF协议的物联网设备参与DDos攻击"></a>基于CoAP协议的物联网设备参与DDos反射攻击与    基于ONVIF协议的物联网设备参与DDos攻击</h1><h2 id="1-基于CoAP协议的物联网设备参与DDos反射攻击"><a href="#1-基于CoAP协议的物联网设备参与DDos反射攻击" class="headerlink" title="1.基于CoAP协议的物联网设备参与DDos反射攻击"></a>1.基于CoAP协议的物联网设备参与DDos反射攻击</h2><h3 id="1-1攻击包分析"><a href="#1-1攻击包分析" class="headerlink" title="1.1攻击包分析"></a>1.1攻击包分析</h3><p>==红色箭头是反射源端口==</p>
@@ -70,15 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Butterfly属性信息</title>
-    <url>/2020/11/28/Butterfly%E5%B1%9E%E6%80%A7%E4%BF%A1%E6%81%AF/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">### 创建新的标签页的属性</span><br><span class="line">---</span><br><span class="line">title: </span><br><span class="line">date:   </span><br><span class="line">updated: </span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top_img:</span><br><span class="line">mathjax:</span><br><span class="line">katex:</span><br><span class="line">aside:</span><br><span class="line">aplayer:</span><br><span class="line">highlight_shrink:</span><br><span class="line">---</span><br><span class="line">	</span><br></pre></td></tr></table></figure>
-
-<p>title    【必需】頁面標題<br>date    【必需】頁面創建日期<br>type    【必需】標籤、分類和友情鏈接三個頁面需要配置<br>updated    【可選】頁面更新日期<br>description    【可選】頁面描述<br>keywords    【可選】頁面關鍵字<br>comments    【可選】顯示頁面評論模塊(默認 true)<br>top_img    【可選】頁面頂部圖片<br>mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)<br>aside    【可選】顯示側邊欄 (默認 true)<br>aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)</p>
-<h3 id="创建博客的属性"><a href="#创建博客的属性" class="headerlink" title="创建博客的属性"></a>创建博客的属性</h3><p>寫法    解釋<br>title    【必需】文章標題<br>date    【必需】文章創建日期<br>updated    【可選】文章更新日期<br>tags    【可選】文章標籤<br>categories    【可選】文章分類<br>keywords    【可選】文章關鍵字<br>description    【可選】文章描述<br>top_img    【可選】文章頂部圖片<br>cover    【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)<br>comments    【可選】顯示文章評論模塊(默認 true)<br>toc    【可選】顯示文章TOC(默認為設置中toc的enable配置)<br>toc_number    【可選】顯示toc_number(默認為設置中toc的number配置)<br>copyright    【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)<br>copyright_author    【可選】文章版權模塊的文章作者<br>copyright_author_href    【可選】文章版權模塊的文章作者鏈接<br>copyright_url    【可選】文章版權模塊的文章連結鏈接<br>copyright_info    【可選】文章版權模塊的版權聲明文字<br>mathjax    【可選】顯示mathjax(當設置mathjax的per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示katex(當設置katex的per_page: false時，才需要配置，默認 false)<br>aplayer    【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的音樂 配置<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)<br>aside    【可選】顯示側邊欄 (默認 true)</p>
-]]></content>
-  </entry>
-  <entry>
     <title>leetcode刷题笔记</title>
     <url>/2020/11/27/leetcode%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Leetcode刷题笔记"><a href="#Leetcode刷题笔记" class="headerlink" title="Leetcode刷题笔记"></a>Leetcode刷题笔记</h1><h2 id="专题1：array"><a href="#专题1：array" class="headerlink" title="专题1：array"></a>专题1：array</h2><p>(1)27:移除元素</p>
@@ -99,6 +99,25 @@
 ]]></content>
       <tags>
         <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode每日一题976</title>
+    <url>/2020/11/29/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98976/</url>
+    <content><![CDATA[<h4 id="976-三角形的最大周长"><a href="#976-三角形的最大周长" class="headerlink" title="976. 三角形的最大周长"></a><a href="https://leetcode-cn.com/problems/largest-perimeter-triangle/">976. 三角形的最大周长</a></h4><p>给定由一些正数（代表长度）组成的数组 <code>A</code>，返回由其中三个长度组成的、<strong>面积不为零</strong>的三角形的最大周长。</p>
+<p>如果不能形成任何面积不为零的三角形，返回 <code>0</code>。</p>
+<p><img src="leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98976.assets/20201129230831.png"></p>
+<p><strong>解法：贪心法</strong></p>
+<p>​    我们都知道三角形成立的条件是，两边之和大于第三边。基于这个原因，我们可以枚举三角形的最长边c,从贪心的角度考虑，我们一定是选小于C的<strong>最大的两个数A和B</strong>，因为此时最有可能出现A+B&gt;C,且，此时三角形的周长一定是最大的。</p>
+<p>​    因此，我们先从小到大对数组进行排序，然后按照倒序的方式，枚举第i个数作为最长边，如果此时存在A[i-2] +A[i-1] &gt; A[i],则此时组成的三角形的周长一定是最大的。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">largestPerimeter</span><span class="params">(<span class="keyword">int</span>[] A)</span> </span>&#123;</span><br><span class="line">        Arrays.sort(A);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = A.length - <span class="number">1</span>; i&gt;=<span class="number">2</span>; i--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] &gt; A[i])&#123;</span><br><span class="line">                <span class="keyword">return</span> A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] +A[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode每日一题</tag>
       </tags>
   </entry>
 </search>

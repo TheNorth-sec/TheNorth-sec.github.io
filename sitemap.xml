@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://thenorth.top/2020/11/29/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98976/</loc>
+    
+    <lastmod>2020-11-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://thenorth.top/2020/11/27/Ubuntu%2018.04%E4%B8%8A%E4%B8%8D%E4%BA%86%E7%BD%91/</loc>
     
     <lastmod>2020-11-29</lastmod>
@@ -136,6 +143,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://thenorth.top/tags/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</loc>
+    <lastmod>2020-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -147,6 +161,13 @@
   
   <url>
     <loc>http://thenorth.top/categories/Linux/</loc>
+    <lastmod>2020-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thenorth.top/categories/leetcode/</loc>
     <lastmod>2020-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
