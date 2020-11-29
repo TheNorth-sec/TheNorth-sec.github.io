@@ -60,11 +60,11 @@
   </entry>
   
   <entry>
-    <title>leetcode刷题笔记</title>
+    <title>Ubuntu18.04上不了网</title>
     <link href="http://thenorth.top/2020/11/27/Ubuntu%2018.04%E4%B8%8A%E4%B8%8D%E4%BA%86%E7%BD%91/"/>
     <id>http://thenorth.top/2020/11/27/Ubuntu%2018.04%E4%B8%8A%E4%B8%8D%E4%BA%86%E7%BD%91/</id>
     <published>2020-11-27T13:30:38.000Z</published>
-    <updated>2020-11-29T08:35:54.990Z</updated>
+    <updated>2020-11-29T08:40:56.562Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Ubuntu-18-04上不了网"><a href="#Ubuntu-18-04上不了网" class="headerlink" title="Ubuntu 18.04上不了网"></a>Ubuntu 18.04上不了网</h1><p>使用ifconfig指令发现只有本地地址</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201129162409.png"></p><p>使用sudo dhclient -v指令，识别所有的网络接口，并尝试配置每个接口</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201129163005.png"></p><p>使用上述指令后，就可以上网</p>]]></content>
     
