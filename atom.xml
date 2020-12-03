@@ -6,7 +6,7 @@
   <link href="http://thenorth.top/atom.xml" rel="self"/>
   
   <link href="http://thenorth.top/"/>
-  <updated>2020-12-03T15:32:40.889Z</updated>
+  <updated>2020-12-03T16:20:22.559Z</updated>
   <id>http://thenorth.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CS4第二课(部署到服务器上)</title>
+    <link href="http://thenorth.top/2020/12/04/CS4%E7%AC%AC%E4%BA%8C%E8%AF%BE-%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/"/>
+    <id>http://thenorth.top/2020/12/04/CS4%E7%AC%AC%E4%BA%8C%E8%AF%BE-%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/</id>
+    <published>2020-12-03T16:06:32.000Z</published>
+    <updated>2020-12-03T16:20:22.559Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-购买云服务器"><a href="#1-购买云服务器" class="headerlink" title="1. 购买云服务器"></a>1. 购买云服务器</h2><h2 id="2-配置安全组规则"><a href="#2-配置安全组规则" class="headerlink" title="2.配置安全组规则"></a>2.配置安全组规则</h2><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204000926.png"></p><h2 id="3-将CS4上传到云服务器上"><a href="#3-将CS4上传到云服务器上" class="headerlink" title="3.将CS4上传到云服务器上"></a>3.将CS4上传到云服务器上</h2><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204001056.png"></p><h2 id="4-进入目录后，修改teamserver的权限"><a href="#4-进入目录后，修改teamserver的权限" class="headerlink" title="4.进入目录后，修改teamserver的权限"></a>4.进入目录后，修改teamserver的权限</h2><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204001252.png"></p><h2 id="5-修改端口"><a href="#5-修改端口" class="headerlink" title="5.修改端口"></a>5.修改端口</h2><p>考虑到服务器的安全，我们修改默认端口</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim teamserver</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204001504.png"></p><h2 id="6-启动服务"><a href="#6-启动服务" class="headerlink" title="6.启动服务"></a>6.启动服务</h2><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204001622.png"></p><h2 id="7-客户端连接"><a href="#7-客户端连接" class="headerlink" title="7.客户端连接"></a>7.客户端连接</h2><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201204001823.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-购买云服务器&quot;&gt;&lt;a href=&quot;#1-购买云服务器&quot; class=&quot;headerlink&quot; title=&quot;1. 购买云服务器&quot;&gt;&lt;/a&gt;1. 购买云服务器&lt;/h2&gt;&lt;h2 id=&quot;2-配置安全组规则&quot;&gt;&lt;a href=&quot;#2-配置安全组规则&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="网络安全" scheme="http://thenorth.top/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="红队工具使用" scheme="http://thenorth.top/tags/%E7%BA%A2%E9%98%9F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>CS4第一课(安装和初步使用)</title>
