@@ -16,6 +16,74 @@
       </tags>
   </entry>
   <entry>
+    <title>CS4第一课(安装和初步使用)</title>
+    <url>/2020/12/03/CS4%E7%AC%AC%E4%B8%80%E8%AF%BE-%E5%AE%89%E8%A3%85%E5%92%8C%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="1-什么是Cobalt-Strike"><a href="#1-什么是Cobalt-Strike" class="headerlink" title="1.什么是Cobalt Strike"></a>1.什么是Cobalt Strike</h2><p>​        Cobalt Strike是一个为对手模拟和红队行动而设计的平台，主要用于执行有目标的攻击和模拟高级威胁者的后渗透行动。</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203223302.png" alt="攻击问题集"></p>
+<h2 id="2-CS能干什么"><a href="#2-CS能干什么" class="headerlink" title="2. CS能干什么"></a>2. CS能干什么</h2><p>（1）完成对目标的侦察，手机目标信息</p>
+<p>（2）武器化，生成相关的payload与一个文档结合，可以把一个普通的文档转化为武器化Artifacts</p>
+<p>（3）进行钓鱼或者鱼叉攻击</p>
+<p>（4）…后面补充</p>
+<h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h2><p>（1）假设看到这篇文章的师傅们都已经有了CS</p>
+<p>（2）进入CS文件夹，然后启动团队服务器，（团队服务器必须在受支持的Linux系统上运行）</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203223952.png"></p>
+<ul>
+<li><p>​    运行下面的指令</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">./teamserver IP地址(第一个必选参数团队服务器的地址) password(第二个必选参数) </span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224259.png"></p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224411.png"></p>
+<p>(3) 启动CS的客户端</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224646.png"></p>
+<p>​        <img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224848.png"></p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224946.png"></p>
+<h2 id="4-使用CS获得第一个Beacon"><a href="#4-使用CS获得第一个Beacon" class="headerlink" title="4.使用CS获得第一个Beacon"></a>4.使用CS获得第一个Beacon</h2><p>(1)进入listener面板</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225550.png"></p>
+<p>（2）点击Add，新建一个监听器</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225711.png"></p>
+<ul>
+<li>填写完成后点击save保存</li>
+</ul>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225950.png"></p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230137.png"></p>
+<p>（3）使用Web Delivery 执行payload</p>
+<p>​    单击attacks菜单，选择Web Driveby,然后在选择Scripted Wed Delivery</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230616.png"></p>
+<ul>
+<li><p>选择已经创建的监听器，Type选择powershell</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230840.png"></p>
+</li>
+<li><p>复制生成的payload</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231040.png"></p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231153.png"></p>
+<ul>
+<li><p>靶机执行payload</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231408.png"></p>
+</li>
+<li><p>成功的话，CS的日志界面可以看到一条日志</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231501.png"></p>
+<ul>
+<li><p>与目标主机进行交互，右键点击Interact</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231628.png"></p>
+</li>
+</ul>
+<p>  <img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231748.png"></p>
+<p>初步使用就介绍完了，后面展开详细的介绍</p>
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>红队工具使用</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DDos 反射攻击</title>
     <url>/2020/11/28/DDos%20%E5%8F%8D%E5%B0%84%E6%94%BB%E5%87%BB/</url>
     <content><![CDATA[<h1 id="基于CoAP协议的物联网设备参与DDos反射攻击与-基于ONVIF协议的物联网设备参与DDos攻击"><a href="#基于CoAP协议的物联网设备参与DDos反射攻击与-基于ONVIF协议的物联网设备参与DDos攻击" class="headerlink" title="基于CoAP协议的物联网设备参与DDos反射攻击与    基于ONVIF协议的物联网设备参与DDos攻击"></a>基于CoAP协议的物联网设备参与DDos反射攻击与    基于ONVIF协议的物联网设备参与DDos攻击</h1><h2 id="1-基于CoAP协议的物联网设备参与DDos反射攻击"><a href="#1-基于CoAP协议的物联网设备参与DDos反射攻击" class="headerlink" title="1.基于CoAP协议的物联网设备参与DDos反射攻击"></a>1.基于CoAP协议的物联网设备参与DDos反射攻击</h2><h3 id="1-1攻击包分析"><a href="#1-1攻击包分析" class="headerlink" title="1.1攻击包分析"></a>1.1攻击包分析</h3><p>==红色箭头是反射源端口==</p>
@@ -85,25 +153,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode每日一题976</title>
-    <url>/2020/11/29/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98976/</url>
-    <content><![CDATA[<h4 id="976-三角形的最大周长"><a href="#976-三角形的最大周长" class="headerlink" title="976. 三角形的最大周长"></a><a href="https://leetcode-cn.com/problems/largest-perimeter-triangle/">976. 三角形的最大周长</a></h4><p>给定由一些正数（代表长度）组成的数组 <code>A</code>，返回由其中三个长度组成的、<strong>面积不为零</strong>的三角形的最大周长。</p>
-<p>如果不能形成任何面积不为零的三角形，返回 <code>0</code>。</p>
-<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201129230831.png"></p>
-<p><strong>解法：贪心法</strong></p>
-<p>​    我们都知道三角形成立的条件是，两边之和大于第三边。基于这个原因，我们可以枚举三角形的最长边c,从贪心的角度考虑，我们一定是选小于C的<strong>最大的两个数A和B</strong>，因为此时最有可能出现A+B&gt;C,且，此时三角形的周长一定是最大的。</p>
-<p>​    因此，我们先从小到大对数组进行排序，然后按照倒序的方式，枚举第i个数作为最长边，如果此时存在A[i-2] +A[i-1] &gt; A[i],则此时组成的三角形的周长一定是最大的。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">largestPerimeter</span><span class="params">(<span class="keyword">int</span>[] A)</span> </span>&#123;</span><br><span class="line">        Arrays.sort(A);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = A.length - <span class="number">1</span>; i&gt;=<span class="number">2</span>; i--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] &gt; A[i])&#123;</span><br><span class="line">                <span class="keyword">return</span> A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] +A[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode每日一题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode刷题笔记</title>
     <url>/2020/11/27/leetcode%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Leetcode刷题笔记"><a href="#Leetcode刷题笔记" class="headerlink" title="Leetcode刷题笔记"></a>Leetcode刷题笔记</h1><h2 id="专题1：array"><a href="#专题1：array" class="headerlink" title="专题1：array"></a>专题1：array</h2><p>(1)27:移除元素</p>
@@ -128,6 +177,25 @@
       <tags>
         <tag>算法</tag>
         <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode每日一题976</title>
+    <url>/2020/11/29/leetcode%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98976/</url>
+    <content><![CDATA[<h4 id="976-三角形的最大周长"><a href="#976-三角形的最大周长" class="headerlink" title="976. 三角形的最大周长"></a><a href="https://leetcode-cn.com/problems/largest-perimeter-triangle/">976. 三角形的最大周长</a></h4><p>给定由一些正数（代表长度）组成的数组 <code>A</code>，返回由其中三个长度组成的、<strong>面积不为零</strong>的三角形的最大周长。</p>
+<p>如果不能形成任何面积不为零的三角形，返回 <code>0</code>。</p>
+<p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201129230831.png"></p>
+<p><strong>解法：贪心法</strong></p>
+<p>​    我们都知道三角形成立的条件是，两边之和大于第三边。基于这个原因，我们可以枚举三角形的最长边c,从贪心的角度考虑，我们一定是选小于C的<strong>最大的两个数A和B</strong>，因为此时最有可能出现A+B&gt;C,且，此时三角形的周长一定是最大的。</p>
+<p>​    因此，我们先从小到大对数组进行排序，然后按照倒序的方式，枚举第i个数作为最长边，如果此时存在A[i-2] +A[i-1] &gt; A[i],则此时组成的三角形的周长一定是最大的。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">largestPerimeter</span><span class="params">(<span class="keyword">int</span>[] A)</span> </span>&#123;</span><br><span class="line">        Arrays.sort(A);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = A.length - <span class="number">1</span>; i&gt;=<span class="number">2</span>; i--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] &gt; A[i])&#123;</span><br><span class="line">                <span class="keyword">return</span> A[i-<span class="number">2</span>] + A[i-<span class="number">1</span>] +A[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode每日一题</tag>
       </tags>
   </entry>
 </search>

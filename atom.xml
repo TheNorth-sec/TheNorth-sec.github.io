@@ -6,7 +6,7 @@
   <link href="http://thenorth.top/atom.xml" rel="self"/>
   
   <link href="http://thenorth.top/"/>
-  <updated>2020-11-30T01:47:34.916Z</updated>
+  <updated>2020-12-03T15:32:40.889Z</updated>
   <id>http://thenorth.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CS4第一课(安装和初步使用)</title>
+    <link href="http://thenorth.top/2020/12/03/CS4%E7%AC%AC%E4%B8%80%E8%AF%BE-%E5%AE%89%E8%A3%85%E5%92%8C%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8/"/>
+    <id>http://thenorth.top/2020/12/03/CS4%E7%AC%AC%E4%B8%80%E8%AF%BE-%E5%AE%89%E8%A3%85%E5%92%8C%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-12-03T14:28:52.000Z</published>
+    <updated>2020-12-03T15:32:40.889Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-什么是Cobalt-Strike"><a href="#1-什么是Cobalt-Strike" class="headerlink" title="1.什么是Cobalt Strike"></a>1.什么是Cobalt Strike</h2><p>​        Cobalt Strike是一个为对手模拟和红队行动而设计的平台，主要用于执行有目标的攻击和模拟高级威胁者的后渗透行动。</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203223302.png" alt="攻击问题集"></p><h2 id="2-CS能干什么"><a href="#2-CS能干什么" class="headerlink" title="2. CS能干什么"></a>2. CS能干什么</h2><p>（1）完成对目标的侦察，手机目标信息</p><p>（2）武器化，生成相关的payload与一个文档结合，可以把一个普通的文档转化为武器化Artifacts</p><p>（3）进行钓鱼或者鱼叉攻击</p><p>（4）…后面补充</p><h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3.安装"></a>3.安装</h2><p>（1）假设看到这篇文章的师傅们都已经有了CS</p><p>（2）进入CS文件夹，然后启动团队服务器，（团队服务器必须在受支持的Linux系统上运行）</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203223952.png"></p><ul><li><p>​    运行下面的指令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./teamserver IP地址(第一个必选参数团队服务器的地址) password(第二个必选参数) </span><br></pre></td></tr></table></figure></li></ul><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224259.png"></p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224411.png"></p><p>(3) 启动CS的客户端</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224646.png"></p><p>​        <img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224848.png"></p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203224946.png"></p><h2 id="4-使用CS获得第一个Beacon"><a href="#4-使用CS获得第一个Beacon" class="headerlink" title="4.使用CS获得第一个Beacon"></a>4.使用CS获得第一个Beacon</h2><p>(1)进入listener面板</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225550.png"></p><p>（2）点击Add，新建一个监听器</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225711.png"></p><ul><li>填写完成后点击save保存</li></ul><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203225950.png"></p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230137.png"></p><p>（3）使用Web Delivery 执行payload</p><p>​    单击attacks菜单，选择Web Driveby,然后在选择Scripted Wed Delivery</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230616.png"></p><ul><li><p>选择已经创建的监听器，Type选择powershell</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203230840.png"></p></li><li><p>复制生成的payload</p></li></ul><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231040.png"></p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231153.png"></p><ul><li><p>靶机执行payload</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231408.png"></p></li><li><p>成功的话，CS的日志界面可以看到一条日志</p></li></ul><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231501.png"></p><ul><li><p>与目标主机进行交互，右键点击Interact</p><p><img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231628.png"></p></li></ul><p>  <img src="https://gitee.com/the_north/images/raw/master/myblog/20201203231748.png"></p><p>初步使用就介绍完了，后面展开详细的介绍</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-什么是Cobalt-Strike&quot;&gt;&lt;a href=&quot;#1-什么是Cobalt-Strike&quot; class=&quot;headerlink&quot; title=&quot;1.什么是Cobalt Strike&quot;&gt;&lt;/a&gt;1.什么是Cobalt Strike&lt;/h2&gt;&lt;p&gt;​     </summary>
+      
+    
+    
+    
+    <category term="网络安全" scheme="http://thenorth.top/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="红队工具使用" scheme="http://thenorth.top/tags/%E7%BA%A2%E9%98%9F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>leetcode每日一题976</title>
