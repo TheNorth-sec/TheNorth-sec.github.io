@@ -219,7 +219,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>GO编写一个高并发端口扫描工具</title>
     <url>/2021/01/10/GO%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E9%AB%98%E5%B9%B6%E5%8F%91%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h1 id="GO编写一个高并发端口扫描工具"><a href="#GO编写一个高并发端口扫描工具" class="headerlink" title="GO编写一个高并发端口扫描工具"></a>GO编写一个高并发端口扫描工具</h1><h2 id="1-理论知识"><a href="#1-理论知识" class="headerlink" title="1.理论知识"></a>1.理论知识</h2><p>​    在本文开始之前，我们介绍一些理论知识。</p>
 <h3 id="1-1-TCP三次握手"><a href="#1-1-TCP三次握手" class="headerlink" title="1.1 TCP三次握手"></a>1.1 TCP三次握手</h3><p>​    <img src="https://gitee.com/the_north/imagebed/raw/master/image/image-20210102100814080.png" alt="image-20210102100814080"></p>
@@ -270,5 +270,11 @@
 <p><img src="https://gitee.com/the_north/imagebed/raw/master/image/image-20210103002354012.png" alt="image-20210103002354012"></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​    目前这个端口扫描只支持TCP协议，由于UDP协议无连接的特性，导致，针对使用UDP协议的端口识别存在问题。如果师傅们有比较好的建议，可以留言。同时Go开发一个自动化的扫描工具，端口扫描只是其中的一部分，后面会接连着实现主机发现，漏洞探测，远程执行，暴力破解等等的教学。</p>
 ]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>红队工具开发</tag>
+      </tags>
   </entry>
 </search>
