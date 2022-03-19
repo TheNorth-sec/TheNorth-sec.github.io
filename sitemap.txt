@@ -3,9 +3,9 @@ http://example.com/2022/03/18/css%E5%AD%A6%E4%B9%A0/
 http://example.com/2022/03/18/javascript%E5%AD%A6%E4%B9%A0/
 http://example.com/books/index.html
 http://example.com/404.html
-http://example.com/links/index.html
 http://example.com/categories/index.html
-http://example.com/repository/index.html
+http://example.com/links/index.html
 http://example.com/tags/index.html
+http://example.com/repository/index.html
 http://example.com/
 http://example.com/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/
